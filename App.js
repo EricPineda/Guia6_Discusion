@@ -87,6 +87,7 @@ const App = () => {
 
 
           <Text style={styles.titulo2}>Habitaciones del hotel</Text>
+          <Text style={styles.subtitulo2}>Click en la imagen para ver detalles</Text>
           <ScrollView horizontal style={styles.horizontal}>
 
             <View>
@@ -168,22 +169,22 @@ const App = () => {
             <View style={styles.listaItem}>
               <Image
                 style={styles.mejores}
-                source={require('./src/img/ruta1.jpg')} />
+                source={require('./src/img/lugar1.jpg')} />
             </View>
             <View style={styles.listaItem}>
               <Image
                 style={styles.mejores}
-                source={require('./src/img/ruta2.jpg')} />
+                source={require('./src/img/lugar2.jpg')} />
             </View>
             <View style={styles.listaItem}>
               <Image
                 style={styles.mejores}
-                source={require('./src/img/ruta3.jpg')} />
+                source={require('./src/img/lugar3.jpg')} />
             </View>
             <View style={styles.listaItem}>
               <Image
                 style={styles.mejores}
-                source={require('./src/img/ruta4.jpg')} />
+                source={require('./src/img/lugar4.jpg')} />
             </View>
 
           </View>
@@ -252,6 +253,13 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 14,
     justifyContent: 'center',
+    textAlign:'center'
+  },
+  subtitulo2: {
+    
+    fontSize: 14,
+    justifyContent: 'center',
+    textAlign:'center'
   },
   horizontal: {
     marginTop: 15,
